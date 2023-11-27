@@ -1,0 +1,5 @@
+# Files to ignore
+Weather_Vacation_Py/api_keys.py
+Weather_Vacation_Py/__pycache__
+
+
