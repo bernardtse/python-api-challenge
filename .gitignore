@@ -1,2 +1,5 @@
+# Mac .DS_Store
+.DS_Store
+
 # Adding config.py file.
 Weather_Vacation_Py/api_keys.py
