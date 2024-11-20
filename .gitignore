@@ -3,3 +3,7 @@
 
 # Adding config.py file.
 Weather_Vacation_Py/api_keys.py
+
+# Other files created by Python
+Weather_Vacation_Py/.ipynb_checkpoints/
+Weather_Vacation_Py/__pycache__/
