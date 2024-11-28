@@ -12,7 +12,7 @@ WeatherPy and VacationPy: API Data Retrieval and Visualisation
 
 ## 1. Overview
 
-This challenge explores global weather patterns and demonstrates how weather data can guide vacation planning. Using Python, the analysis examines the relationship between latitude and weather variables like temperature, humidity, cloudiness, and wind speed. Skills applied include data retrieval through APIs (OpenWeatherMap and Geoapify), data cleaning and manipulation using pandas, and statistical analysis with linear regression. The results are visualised through scatter plots, regression charts, and interactive maps created with matplotlib and hvplot. This challenge highlights the use of programming, API integration, and data visualisation to extract meaningful insights from real-world weather data.
+This challenge explores global weather patterns and demonstrates how weather data can guide vacation planning. Using Python, the analysis examines the relationship between latitude and weather variables like temperature, humidity, cloudiness, and wind speed. Skills applied include data retrieval through APIs (OpenWeatherMap and Geoapify), data cleaning and manipulation using pandas, and statistical analysis with linear regression. The results are visualised through scatter plots, regression charts, and interactive maps created with Matplotlib and hvPlot. This challenge highlights the use of programming, API integration, and data visualisation to extract meaningful insights from real-world weather data.
 
 ## 2. Repository
 
@@ -80,14 +80,18 @@ The project answers the following questions:
 - Latitude vs. Cloudiness
 - Latitude vs. Wind Speed
 
+![Scatter Plot](Weather_Vacation_Py/output_data/Fig1.png)
+
 ### Vacation Planning:
 - Creates a map with city points based on weather data.
 - Narrows down cities with ideal weather conditions (e.g., temperatures between 21°C and 27°C, low wind speed, and zero cloudiness).
 - Finds hotels near the cities using the Geoapify API.
 
+![hvPlot](images/hvplot.png)
+
 ## 5. References
 
 - [OpenWeatherMap API](https://openweathermap.org/api)
 - [Geoapify API](https://www.geoapify.com)
-- `hvplot` Python Library: [https://hvplot.holoviz.org/](https://hvplot.holoviz.org/)
+- `hvPlot` Python Library: [https://hvplot.holoviz.org/](https://hvplot.holoviz.org/)
 - `citipy` Python Library: [https://pypi.python.org/pypi/citipy](https://pypi.python.org/pypi/citipy)
