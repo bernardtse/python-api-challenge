@@ -2,8 +2,8 @@
 .DS_Store
 
 # Adding config.py file.
-Weather_Vacation_Py/api_keys.py
+weather_vacation_py/api_keys.py
 
 # Other files created by Python
-Weather_Vacation_Py/.ipynb_checkpoints/
-Weather_Vacation_Py/__pycache__/
+weather_vacation_py/.ipynb_checkpoints/
+weather_vacation_py/__pycache__/
