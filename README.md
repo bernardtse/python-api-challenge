@@ -19,7 +19,7 @@ This challenge explores global weather patterns and demonstrates how weather dat
 This repository contains the following files and directories:
 
 ### Jupyter Notebooks
-- [`Weather_Vacation_Py/WeatherPy.ipynb`](Weather_Vacation_Py/WeatherPy.ipynb): This notebook performs the data analysis for Part 1 of the project. It retrieves weather data from over 500 cities and creates plots showcasing the relationship between latitude and various weather variables.
+- [`Weather_Vacation_Py/WeatherPy.ipynb`](Weather_Vacation_Py/WeatherPy.ipynb): This notebook performs the data analysis for Part 1 of this challenge. It retrieves weather data from over 500 cities and creates plots showcasing the relationship between latitude and various weather variables.
 - [`Weather_Vacation_Py/VacationPy.ipynb`](Weather_Vacation_Py/VacationPy.ipynb): This notebook plans future vacations based on ideal weather conditions and uses the Geoapify API to find hotels within specific cities.
 
 ### Output Files from `WeatherPy.ipynb`
@@ -40,7 +40,7 @@ This repository contains the following files and directories:
 
 ## 3. Deployment
 
-To deploy and run this project, follow these steps:
+To deploy and run this challenge, follow these steps:
 
 1. **Clone the repository**:
    Download or clone this repository to your local machine.
@@ -68,7 +68,7 @@ To deploy and run this project, follow these steps:
 
 ## 4. Data Analysis
 
-The project answers the following questions:
+This challenge answers the following questions:
 - How does the weather (temperature, humidity, cloudiness, and wind speed) relate to latitude?
 - What is the linear regression model between weather variables and latitude for cities in the Northern and Southern Hemispheres?
 - Which cities have ideal weather conditions for a vacation, such as moderate temperatures and low humidity?
