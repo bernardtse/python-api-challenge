@@ -19,16 +19,16 @@ This challenge explores global weather patterns and demonstrates how weather dat
 This repository contains the following files and directories:
 
 ### Jupyter Notebooks
-- [`weather_vacation_py/weatherpy.ipynb`](weather_vacation_py/weatherpy.ipynb): This notebook performs the data analysis for Part 1 of this challenge. It retrieves weather data from over 500 cities and creates plots showcasing the relationship between latitude and various weather variables.
-- [`weather_vacation_py/vacationpy.ipynb`](weather_vacation_py/vacationpy.ipynb): This notebook plans future vacations based on ideal weather conditions and uses the Geoapify API to find hotels within specific cities.
+- [`weather_vacation_py/weather_py.ipynb`](weather_vacation_py/weather_py.ipynb): This notebook performs the data analysis for Part 1 of this challenge. It retrieves weather data from over 500 cities and creates plots showcasing the relationship between latitude and various weather variables.
+- [`weather_vacation_py/vacation_py.ipynb`](weather_vacation_py/vacation_py.ipynb): This notebook plans future vacations based on ideal weather conditions and uses the Geoapify API to find hotels within specific cities.
 
-### Output Files from `weatherpy.ipynb`
+### Output Files from `weather_py.ipynb`
 - [`weather_vacation_py/output_data/fig1.png`](weather_vacation_py/output_data/fig1.png)
 - [`weather_vacation_py/output_data/fig2.png`](weather_vacation_py/output_data/fig2.png)
 - [`weather_vacation_py/output_data/fig3.png`](weather_vacation_py/output_data/fig3.png)
 - [`weather_vacation_py/output_data/fig4.png`](weather_vacation_py/output_data/fig4.png)
 
-### Output Files from `vacationpy.ipynb`
+### Output Files from `vacation_py.ipynb`
 - `weather_vacation_py/output_data/cities.csv`
 - [`weather_vacation_py/output_data/humidity_map.png`](weather_vacation_py/output_data/humidity_map.png)
 - `weather_vacation_py/output_data/humidity_map.html`
@@ -63,8 +63,8 @@ To deploy and run this challenge, follow these steps:
    ```
 
 4. **Run the notebooks**:
-   - Open [`weather_vacation_py/weatherpy.ipynb`](weather_vacation_py/weatherpy.ipynb) to perform the weather analysis and generate visual plots.
-   - Open [`weather_vacation_py/vacationpy.ipynb`](weather_vacation_py/vacationpy.ipynb) to visualise ideal vacation locations and find hotels.
+   - Open [`weather_vacation_py/weather_py.ipynb`](weather_vacation_py/weather_py.ipynb) to perform the weather analysis and generate visual plots.
+   - Open [`weather_vacation_py/vacation_py.ipynb`](weather_vacation_py/vacation_py.ipynb) to visualise ideal vacation locations and find hotels.
 
 ## 4. Data Analysis
 
