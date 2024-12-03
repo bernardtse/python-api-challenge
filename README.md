@@ -19,21 +19,21 @@ This challenge explores global weather patterns and demonstrates how weather dat
 This repository contains the following files and directories:
 
 ### Jupyter Notebooks
-- [`Weather_Vacation_Py/WeatherPy.ipynb`](Weather_Vacation_Py/WeatherPy.ipynb): This notebook performs the data analysis for Part 1 of this challenge. It retrieves weather data from over 500 cities and creates plots showcasing the relationship between latitude and various weather variables.
-- [`Weather_Vacation_Py/VacationPy.ipynb`](Weather_Vacation_Py/VacationPy.ipynb): This notebook plans future vacations based on ideal weather conditions and uses the Geoapify API to find hotels within specific cities.
+- [`weather_vacation_py/weatherpy.ipynb`](weather_vacation_py/weatherpy.ipynb): This notebook performs the data analysis for Part 1 of this challenge. It retrieves weather data from over 500 cities and creates plots showcasing the relationship between latitude and various weather variables.
+- [`weather_vacation_py/vacationpy.ipynb`](weather_vacation_py/vacationpy.ipynb): This notebook plans future vacations based on ideal weather conditions and uses the Geoapify API to find hotels within specific cities.
 
-### Output Files from `WeatherPy.ipynb`
-- [`Weather_Vacation_Py/output_data/Fig1.png`](Weather_Vacation_Py/output_data/Fig1.png)
-- [`Weather_Vacation_Py/output_data/Fig2.png`](Weather_Vacation_Py/output_data/Fig2.png)
-- [`Weather_Vacation_Py/output_data/Fig3.png`](Weather_Vacation_Py/output_data/Fig3.png)
-- [`Weather_Vacation_Py/output_data/Fig4.png`](Weather_Vacation_Py/output_data/Fig4.png)
+### Output Files from `weatherpy.ipynb`
+- [`weather_vacation_py/output_data/fig1.png`](weather_vacation_py/output_data/fig1.png)
+- [`weather_vacation_py/output_data/fig2.png`](weather_vacation_py/output_data/fig2.png)
+- [`weather_vacation_py/output_data/fig3.png`](weather_vacation_py/output_data/fig3.png)
+- [`weather_vacation_py/output_data/fig4.png`](weather_vacation_py/output_data/fig4.png)
 
-### Output Files from `VacationPy.ipynb`
-- `Weather_Vacation_Py/output_data/cities.csv`
-- [`Weather_Vacation_Py/output_data/humidity_map.png`](Weather_Vacation_Py/output_data/humidity_map.png)
-- `Weather_Vacation_Py/output_data/humidity_map.html`
-- [`Weather_Vacation_Py/output_data/hotel_map.png`](Weather_Vacation_Py/output_data/hotel_map.png)
-- `Weather_Vacation_Py/output_data/hotel_map.html`
+### Output Files from `vacationpy.ipynb`
+- `weather_vacation_py/output_data/cities.csv`
+- [`weather_vacation_py/output_data/humidity_map.png`](weather_vacation_py/output_data/humidity_map.png)
+- `weather_vacation_py/output_data/humidity_map.html`
+- [`weather_vacation_py/output_data/hotel_map.png`](weather_vacation_py/output_data/hotel_map.png)
+- `weather_vacation_py/output_data/hotel_map.html`
 
 ### `.gitignore`
 - Prevents the upload of sensitive information such as API keys and other unwanted files to the online repository.
@@ -53,7 +53,7 @@ To deploy and run this challenge, follow these steps:
    - [OpenWeatherMap API](https://openweathermap.org/api)
    - [Geoapify API](https://www.geoapify.com)
 
-   Save the keys in `Weather_Vacation_Py/api_keys.py`:
+   Save the keys in `weather_vacation_py/api_keys.py`:
 
    ```
    # OpenWeatherMap API Key
@@ -63,8 +63,8 @@ To deploy and run this challenge, follow these steps:
    ```
 
 4. **Run the notebooks**:
-   - Open [`Weather_Vacation_Py/WeatherPy.ipynb`](Weather_Vacation_Py/WeatherPy.ipynb) to perform the weather analysis and generate visual plots.
-   - Open [`Weather_Vacation_Py/VacationPy.ipynb`](Weather_Vacation_Py/VacationPy.ipynb) to visualise ideal vacation locations and find hotels.
+   - Open [`weather_vacation_py/weatherpy.ipynb`](weather_vacation_py/weatherpy.ipynb) to perform the weather analysis and generate visual plots.
+   - Open [`weather_vacation_py/vacationpy.ipynb`](weather_vacation_py/vacationpy.ipynb) to visualise ideal vacation locations and find hotels.
 
 ## 4. Data Analysis
 
@@ -80,7 +80,7 @@ This challenge answers the following questions:
 - Latitude vs. Cloudiness
 - Latitude vs. Wind Speed
 
-![Scatter Plot](Weather_Vacation_Py/output_data/Fig1.png)
+![Scatter Plot](weather_vacation_py/output_data/fig1.png)
 
 ### Vacation Planning:
 - Creates a map with city points based on weather data.
