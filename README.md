@@ -1,5 +1,5 @@
 # python-api-challenge
-WeatherPy and VacationPy: API Data Retrieval and Visualisation
+WeatherPy and VacationPy - API Data Retrieval and Visualisation
 
 
 ## Contents
