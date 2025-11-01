@@ -19,7 +19,7 @@ This challenge explores global weather patterns and demonstrates how weather dat
 This repository contains the following files and directories:
 
 ### Jupyter Notebooks
-- [`weather_vacation_py/weather_py.ipynb`](weather_vacation_py/weather_py.ipynb) - This notebook performs the data analysis for Part 1 of this challenge. It retrieves weather data from over 500 cities and creates plots showcasing the relationship between latitude and various weather variables.
+- [`weather_vacation_py/weather_py.ipynb`](weather_vacation_py/weather_py.ipynb) - This notebook performs the data analysis for Part 1 of this challenge. It retrieves weather data from over 500 cities and creates plots showcasing the relationship between latitude and various weather variables
 - [`weather_vacation_py/vacation_py.ipynb`](weather_vacation_py/vacation_py.ipynb) - This notebook plans future vacaions based on ideal weather conditions and uses the Geoapify API to find hotels within specific cities
 
 ### Output Files from `weather_py.ipynb`
